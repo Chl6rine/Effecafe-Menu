@@ -1,0 +1,22 @@
+/* Ensure that the image fills its container responsively */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.image-container {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
